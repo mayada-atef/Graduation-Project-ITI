@@ -67,7 +67,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  zoom:80%;
+  zoom:85%;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -158,15 +158,17 @@ sub {
 sup {
   top: -.5em;
 }
-
+.form-group label{
+  color:#2c6d51;
+}
 a {
-  color: #007bff;
+  color: #3d9970;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #2c6d51;
   text-decoration: none;
 }
 
@@ -4361,7 +4363,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #3d9970;
 }
 
 .nav-fill > .nav-link,
@@ -12460,7 +12462,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 .brand-link:hover {
-  color: #fff;
+  color:#1f4f3a;
   text-decoration: none;
 }
 
@@ -15478,7 +15480,7 @@ body.text-sm .control-sidebar {
 }
 
 .nav-pills .nav-link:not(.active):hover {
-  color: #007bff;
+  color: #3d9970;
 }
 
 .nav-pills .nav-item.dropdown.show .nav-link:hover {
